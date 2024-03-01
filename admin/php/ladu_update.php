@@ -1,6 +1,4 @@
-<?php
-include_once("../../connection.php");
-session_start();
+<?php include_once("../../connection.php");
 
 	if(isset($_POST['kirjeldus'])){
 		$id = $_POST['id'];

@@ -1,5 +1,4 @@
-<?php 
-session_start();
+<?php
 
 $seade_sort=$_POST['seade_sort'];
 $asukoht_sort=$_POST['asukoht_sort'];

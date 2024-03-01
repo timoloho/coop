@@ -1,5 +1,4 @@
 <?php include_once('../main.php');
-//include_once('php/ladu_search.php');
 session_start();
 
  if($_SESSION['level'] !== 3){
@@ -56,7 +55,7 @@ $sql4 = "SELECT * FROM seadmed";
 				<h2 style="display:inline-block"><b>Sündmused</b></h2>
 				<div class="form-group">
 					<select class="custom-select w-15 float-left bg-light mr-1" name="asukoht_sort">
-						<option value="<?=$_POST[asukoht_sort]?>"><? if (!empty($_POST['asukoht_sort'])){
+						<option value="<?=$_POST['asukoht_sort']?>"><? if (!empty($_POST['asukoht_sort'])){
 							echo $_POST['asukoht_sort'];
 						}else {
 							echo "Kõik kauplused";

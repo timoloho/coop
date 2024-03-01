@@ -1,9 +1,9 @@
 <?php
 
-$server = 'localhost:3307';
-$user = 'root';
-$pass = 'Aas-kannikas5';
-$db = 't66mehed';
+$server = 'd110472.mysql.zonevs.eu';
+$user = 'd110472_coop';
+$pass = 'kristikristotimi';
+$db = 'd110472_coop';
 
 $conn = mysqli_connect($server, $user, $pass, $db);
 
